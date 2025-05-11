@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Simulation</title>
+</head>
+<body>
+    <h1>Soccer Simulation</h1>
+
+    <h1>Game Score</h1>
+    <div id="scoreBoard">
+        <p id="yourScore">Your (reds) Score: 0</p>
+        <p id="computerScore">Computer (blues) Score: 0</p>
+    </div>
+    
+    <div>
+        <label for="creativity">Creativity:</label>
+        <select id="creativity">
+            <option value="low">Low</option>
+            <option value="balanced" selected>Balanced</option>
+            <option value="high">High</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="mentality">Mentality:</label>
+        <select id="mentality">
+            <option value="parkTheBus">Park the Bus</option>
+            <option value="defense">Defense</option>
+            <option value="balanced" selected>Balanced</option>
+            <option value="attack">Attack</option>
+            <option value="allOutAttack">All Out Attack</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="compactness">Defensive Compactness:</label>
+        <select id="compactness">
+            <option value="low">Low</option>
+            <option value="balanced" selected>Balanced</option>
+            <option value="high">High</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="pressLevel">Press Level:</label>
+        <select id="pressLevel">
+            <option value="low">Low</option>
+            <option value="balanced" selected>Balanced</option>
+            <option value="high">High</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="shootMore">Shoot More:</label>
+        <select id="shootMore">
+            <option value="no" selected>No</option>
+            <option value="yes">Yes</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="dribbleMore">Dribble More:</label>
+        <select id="dribbleMore">
+            <option value="no" selected>No</option>
+            <option value="yes">Yes</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="idea">Idea:</label>
+        <select id="idea">
+            <option value="possession">Possession</option>
+            <option value="balanced" selected>Balanced</option>
+            <option value="counter">Counter</option>
+        </select>
+    </div>
+
+    <h2>Soccer Field</h2>
+    <canvas id="soccerField" width="620" height="420" style="border:1px solid black;"></canvas>
+    <script type="module" src="./main.mjs"></script>
+</body>
+</html>
