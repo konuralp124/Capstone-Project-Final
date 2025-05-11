@@ -130,4 +130,4 @@ Email: ks6299@nyu.edu
 
 Konuralp Sarisozen. 2025. A Modifiable and Realistic Football Simulation: Using Action-defined States with Normalized Categories in Q-learning. In NYUAD Capstone Seminar Reports, Spring 2025, Abu Dhabi, UAE. 16 pages.
 
-This project and its written report is submitted to NYUAD’s capstone repository in fulfillment of NYUAD’s Computer Science major graduation requirements.
+This project and its written report are submitted to NYUAD’s capstone repository in fulfillment of NYUAD’s Computer Science major graduation requirements.
